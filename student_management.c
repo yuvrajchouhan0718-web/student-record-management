@@ -7,13 +7,13 @@ int main() {
 
     printf("===== STUDENT RECORD =====\n");
 
-    printf("Enter student name: ");
+    printf("Yuvraj: ");
     scanf("%49s", name);
 
-    printf("Enter roll number: ");
+    printf("1001: ");
     scanf("%d", &rollNo);
 
-    printf("Enter marks: ");
+    printf("100: ");
     scanf("%f", &marks);
 
     printf("\n===== STUDENT DETAILS =====\n");
