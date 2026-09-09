@@ -1,25 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    char name[50];
-    int age;
-    float height;
 
-    printf("===== PERSONAL INFORMATION =====\n");
+   printf("===== PERSONAL INFORMATION =====\n");
+    
+    char name[50] = "Yuvraj";
+    int age = 18;
+    float height = 1.75;
 
-    printf("Yuvraj: ");
-    scanf("%s", name);
+    printf("name: Yuvraj\n");
 
-    printf("18: ");
-    scanf("%d", &age);
-
-    printf("1.75m: ");
-    scanf("%f", &height);
-
-    printf("\n===== DETAILS =====\n");
-    printf("Name: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
-
+    printf("age: 18\n");
+    
+    printf("height: 18 \n");
+    
     return 0;
 }
